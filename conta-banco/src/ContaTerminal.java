@@ -12,14 +12,14 @@ public class ContaTerminal {
         double saldo = 0;
 
         // Exibir as mensagens para o nosso usuário
-        System.out.println("Digite o número da sua conta: ");
-        numero = scanner.nextInt();
-
         System.out.println("Digite a agencia: ");
-        agencia = scanner.next();
+        agencia = scanner.nextLine();
 
         System.out.println("Digite o seu nome completo: ");
         nomeCliente = scanner.nextLine();
+
+        System.out.println("Digite o número da sua conta: ");
+        numero = scanner.nextInt();
 
         System.out.println("Digite o seu saldo: ");
         saldo = scanner.nextDouble();
